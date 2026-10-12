@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Software Design Thinking – Student Presentations</title>
+<link rel="stylesheet" href="style.css"></head><body>
+<header>
+ <h1>Software Design Thinking – Student Presentations<small>K. J. Somaiya School of Engineering · 216U01C701 · Jul–Dec 2026</small></h1>
+ <nav id="nav"></nav>
+ <button id="ld">Load data</button>
+</header>
+<main id="app"></main>
+<dialog id="dlg">
+ <h3 style="margin-top:0">Load submissions</h3>
+ <p style="font-size:.85rem;color:var(--mute)">In your Google Sheet use File → Download → CSV, then choose the file, or paste the rows (with the header row) below. Saved in this browser.</p>
+ <input type="file" id="fl" accept=".csv,.tsv,.txt">
+ <textarea id="ta" placeholder="Timestamp, Roll Number, Topic number, Submission link, Div, PPT upload"></textarea>
+ <div class="row"><button id="rs">Reset to sample</button><button id="cx">Cancel</button><button id="ok" style="background:var(--acc);color:#fff">Load</button></div>
+</dialog>
+<script src="app.js"></script></body></html>
