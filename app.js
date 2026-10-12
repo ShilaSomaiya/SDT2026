@@ -1,6 +1,6 @@
 // ===== CONFIG: when hosted on GitHub Pages/Netlify, paste the Google Sheet "Publish to web" CSV link here =====
 //const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vT5V0AqpTSSqK4gf6kIZ-nVQdgkTVmnulO2w5pwjd1kixXdEp8bBbwLmrdHEJP8EGwoRZLx6u8v3TIa/pub?gid=1333249164&single=true&output=csv";
-const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vT5V0AqpTSSqK4gf6kIZ-nVQdgkTVmnulO2w5pwjd1kixXdEp8bBbwLmrdHEJP8EGwoRZLx6u8v3TIa/pubhtml";
+const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vT5V0AqpTSSqK4gf6kIZ-nVQdgkTVmnulO2w5pwjd1kixXdEp8bBbwLmrdHEJP8EGwoRZLx6u8v3TIa/pub?output=csv";
 // Optional: Apps Script web-app link that stores star ratings so everyone sees the same averages
 //const FEEDBACK_URL = "";
 const FEEDBACK_URL = "https://script.google.com/macros/s/AKfycbwquD2afss6CTD3V92VtXCt3QwATR81uIe81qoy30DZHHB8L230aE_FiRcqyGUBf_Tl/exec";
